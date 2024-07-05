@@ -1,0 +1,103 @@
+[
+  {
+    "description": "    Este feature realiza la funcionalidad necesaria para comprar dos celulares",
+    "keyword": "Feature",
+    "name": "Compra de dos celulares",
+    "line": 1,
+    "id": "compra-de-dos-celulares",
+    "tags": [],
+    "uri": "compraCarrito.feature",
+    "elements": [
+      {
+        "id": "compra-de-dos-celulares;comprar-dos-telefonos-celulares-y-pagarlos",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Comprar dos telefonos celulares y pagarlos",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "que visito la página principal",
+            "result": {
+              "status": "passed",
+              "duration": 1042000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "agrego el primer producto al carrito",
+            "result": {
+              "status": "passed",
+              "duration": 1953000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "confirmo la seleccion del primer articulo y regreso a la pagina principal",
+            "result": {
+              "status": "passed",
+              "duration": 253000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "agrego el segundo producto al carrito",
+            "result": {
+              "status": "passed",
+              "duration": 1180000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "confirmo la seleccion del segundo articulo y regreso a la pagina principal",
+            "result": {
+              "status": "passed",
+              "duration": 270000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "visualizo el carrito",
+            "result": {
+              "status": "passed",
+              "duration": 1635000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "completo el formulario de compra",
+            "result": {
+              "status": "passed",
+              "duration": 2407000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "finalizo la compra",
+            "result": {
+              "status": "passed",
+              "duration": 36000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

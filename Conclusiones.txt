@@ -1,0 +1,26 @@
+Conclusiones prueba E2E
+
+1. Se completó el ejercicio utilizando Cypress junto con Cucumber aplicando el patron de diseño Page Object Model.
+Además, los datos fueron cargados desde un archivo json.
+
+2. Al momento de completar el test se presentó un nuevo reto para mí, debido a que no había manejado ventanas
+emergentes al momento de confirmar una compra, este inconveniente se lo solventó utilizando la documentación 
+de Cypress.
+
+3. Cuando se llenan los campos de formulario de compra se observó que no hay ninguna validación en las opciones, 
+se puede colocar cualquier información y en el caso del campo nombre tiene un límite de caracteres que impide que 
+se ingresen nombres largos
+
+4. Al proceder con la compra si se dejan los campos vacios no se puede proceder con la compra.
+
+5. Se construyó un framework desde cero para la ejecución del caso de prueba solicitado, esto me ayudó a profundizar
+mi conocimiento de Cypress.
+
+6. Al realizar esta prueba se verificó que el camino que el usuario debe seguir es el correcto, se comprobó que todos 
+los elementos que deben ser clicleables lo son y se detecto una anomalía en el formulario de compra debido a la falta de
+validaciones en la información ingresada.
+
+7. Con cucumber se realizó un caso de prueba fácil de leer para el usuario no técnico, este tipo de casos de prueba es más
+robusto debido a que se detalla de mejor manera el paso a paso de la ejecución de la prueba.
+
+8. Se realizó una prueba de cobertura completa de la funcionalidad de comprar artículos.
