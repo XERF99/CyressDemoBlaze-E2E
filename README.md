@@ -44,8 +44,7 @@ de reportes.
     6.3. Para observar el reporte generado se debe ir a la carpeta reportes-cucumber -> index.html -> clic derecho dentro del archivo
         y seleccionar la opción de abrir con el navegador para que el reporte html se abra en el navegador que seleccione 
 
+Clona el repositorio
 
-
-
-
-
+      git https://github.com/XERF99/CyressDemoBlaze-E2E.git
+      cd CyressDemoBlaze-E2E
