@@ -20,17 +20,17 @@ este comando instalará todas las dependicias de node necesarias
 de reportes.
 
 5. Para ejecutar el proyecto es necesario aplicar colocar en el terminal de VSCODE lo siguiente
-    5.1. Ejecución de Cypress en una interfaz gráfica
-
+    - 5.1. Ejecución de Cypress en una interfaz gráfica
+      ```
         npx cypress open
    
-    5.2. Seleccionar la opción ESE Testing
-    5.3. Seleccionar el navegador que más le guste
-    5.4. Clic en Start E2E Testing
-    5.5. Selccionar el feature llamado "compraCarrito.feature"
+    - 5.2. Seleccionar la opción ESE Testing
+    - 5.3. Seleccionar el navegador que más le guste
+    - 5.4. Clic en Start E2E Testing
+    - 5.5. Selccionar el feature llamado "compraCarrito.feature"
    
-    5.6. Ejecución de Cypress en el terminal de VSCODE
-   
+    - 5.6. Ejecución de Cypress en el terminal de VSCODE
+      ```
        npx cypress run
 
 ## Generación de reportes
